@@ -1,0 +1,83 @@
+ body{
+	background: #373737;
+	color: black;
+	font-family: Lora,sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-family: Do Hyeron;
+	letter-spacing: 2px;
+	font-size: 42px;
+}
+
+h2{
+	font-family: Helvetica;
+	color: #2c2c2c;
+	font-size: 23px;
+}
+
+a {
+	padding: 10px 12px;
+	border-radius: 7px;
+	background-color: rgb(166, 166, 166);
+	color: rgb(41, 43, 43);
+	font-weight: bolder;
+}
+
+a:hover{
+	color: white;
+	background-color: black;
+}
+
+div {
+	background: darkorange;
+	border: 2px solid black;
+	margin: 40px 60px;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7) ;
+	border-radius: 6px;
+}
+
+#img-circle {
+	border-radius: 80%;
+	border: 6px solid black;
+	height: 220px;
+}
+
+@media (max-width : 760px){
+    #container {
+		width: 700px;
+	}
+}
+
+@media (max-width : 500px){
+	#container {
+		width: 490px;
+	}
+}
+
+/* custom design */
+
+
+.card-design{
+	background-color: #8b8b8b;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline ;
+	padding-left: 10px;
+}
+
+.list-inline i {
+	font-size: 25px;
+}
+
+#introduction a {
+	margin-bottom: 50px;
+}
